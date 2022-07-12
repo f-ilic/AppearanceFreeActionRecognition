@@ -1,0 +1,3 @@
+[submodule "afd"]
+	path = afd
+	url = git@github.com:f-ilic/afd.git
