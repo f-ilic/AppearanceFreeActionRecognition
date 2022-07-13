@@ -26,6 +26,8 @@ AFD itself is a synthetic derivative of UCF101 where all appearance cues are rem
 
 3) The code for the psychophysical experiment, complete with a user interface, scripts to plot and summarize the gathered results as shown in our paper.
 
+
+
 # Appearance Free Dataset
 The Appearance Free Dataset (AFD) is an extension to a widely used action recognition dataset that
 disentangles static and dynamic video components. In particular, no single frame
@@ -89,6 +91,11 @@ CUDA_VISIBLE_DEVICES=2 python generate_afd.py --src /home/data/ucf101 --dst /hom
 CUDA_VISIBLE_DEVICES=3 python generate_afd.py --src /home/data/ucf101 --dst /home/data/afd101 --start_letter P --end_letter Z
 ```
 
+To generate the optical flow datasets needed for on demand dataloading run:
+```python
+python generate_flow.py --src /path/to/ucf101orafd101/ --dst /some/path/
+```
+
  ## Visualisation & Utilities
 
 We also provide some basic utilities to view AFD data in context of its optical flow and the (regular rgb) video. 
@@ -125,7 +132,6 @@ python afd_single_video.py /path/to/afdvideo.mp4 --gif /home/Desktop/test.gif --
  python afd_teaser_collage.py
  ```
  The output will be saved as `collage.gif`.
-
 
 # Our proposed network: E2S-X3D
 
