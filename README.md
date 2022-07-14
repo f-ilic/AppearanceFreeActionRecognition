@@ -7,6 +7,7 @@ Filip Ilic, Thomas Pock, Richard P. Wildes<br>
 ---
 
 [[Project Page]](https://f-ilic.github.io/AppearanceFreeActionRecognition)
+[[Paper]](https://arxiv.org/pdf/2207.06261.pdf)
 
 Environment Setup:
 ```bash
@@ -40,6 +41,10 @@ Some samples from AFD101 are shown below:
 
 
 ![](readme_assets/collage2.gif)
+
+
+![](readme_assets/afdjumpingjack.gif)
+![](readme_assets/afdbenchpress.gif)
 
 
 ## Download
