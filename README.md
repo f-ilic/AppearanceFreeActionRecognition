@@ -53,10 +53,15 @@ Download link to AFD101: https://files.icg.tugraz.at/f/bcf621cd46ba4b0e8feb/
 
 If you wish to download the whole dataset package, run:
 ```bash
-wget https://files.icg.tugraz.at/f/41fb3577580f458ea997/?dl=1 -O ucf101.zip
-wget https://files.icg.tugraz.at/f/bcf621cd46ba4b0e8feb/?dl=1 -O afd101.zip
+wget https://files.icg.tugraz.at/f/b751f3b2a53440039d89/?dl=1 -O ucf101.zip
+wget https://files.icg.tugraz.at/f/9b501254b9b0499cbec9/?dl=1 -O afd101.zip
 unzip ucf101.zip
 unzip afd101.zip
+```
+
+[ALTERNATE AFD101 MIRROR]
+```bash
+https://cloud.tugraz.at/index.php/s/BMfNRLPLsXs5qsM
 ```
 
 ## Create it yourself
