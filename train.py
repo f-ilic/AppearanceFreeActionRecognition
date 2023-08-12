@@ -91,6 +91,8 @@ def main():
         train_dataset.num_classes,
         cfg["weights_path"],
         cfg["pretrained"],
+        cfg["train_rgbbackbone"],
+        cfg["train_flowbackbone"],
     )
 
     model.name = build_model_name(cfg)

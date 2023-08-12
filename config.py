@@ -8,8 +8,9 @@ parser.add_argument("--weights_path", type=str, default=None)
 parser.add_argument("--num_epochs", type=int, default=80)
 parser.add_argument("--batch_size", type=int, default=64)
 parser.add_argument("--lr", type=float, default=3e-4)
-parser.add_argument("-pretrained", action="store_false")
-parser.add_argument("-train_backbone", action="store_true")
+parser.add_argument("-pretrained", action="store_true")
+parser.add_argument("-train_rgbbackbone", action="store_true")
+parser.add_argument("-train_flowbackbone", action="store_true")
 
 cfg = dict()
 
